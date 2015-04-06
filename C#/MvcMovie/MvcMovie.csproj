@@ -172,6 +172,12 @@
     <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="DryIoc\AsyncExecutionFlowScopeContext.cs" />
+    <Compile Include="DryIoc\Container.cs" />
+    <Compile Include="DryIoc\FactoryCompiler.cs" />
+    <Compile Include="DryIoc\InternalsVisibleToDryIocFactoryCompilerDynamicAssembly.cs" />
+    <Compile Include="DryIoc\Mvc\DryIocMvc.cs" />
+    <Compile Include="DryIoc\Web\DryIocWeb.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
