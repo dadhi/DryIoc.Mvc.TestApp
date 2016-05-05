@@ -20,6 +20,7 @@ namespace MvcMovie
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             var container = new Container();
+            container.Register<ICustomerRepository, CustomerRepository>();
             container.WithMvc();
         }
     }
